@@ -112,8 +112,8 @@ Copy code
 ---
 
 ## 👤 Author
-**Jatin Gumber**  
-Computer Science Engineer  
+**Shubham Dawal**  
+
 
 ---
 
