@@ -48,7 +48,6 @@ The project is fully deployed on cloud with a permanent public URL.
 - **Deployment Platform:** Render  
 
 ---
-
 ## 📂 Project Structure
 ai-resume-analyzer/
 │
@@ -65,8 +64,6 @@ ai-resume-analyzer/
 │
 ├── uploads/
 
-yaml
-Copy code
 
 ---
 
