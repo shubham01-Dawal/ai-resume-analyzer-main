@@ -7,14 +7,11 @@ from resume_analyzer import extract_text, analyze_resume
 
 UPLOAD_FOLDER = "uploads"
 ALLOWED_EXTENSIONS = {".pdf", ".txt", ".docx"}
-
 app = Flask(__name__)
 app.secret_key = "change_this_secret_key"  # change to anything random
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
-
-
 def allowed_file(filename: str) -> bool:
     ext = os.path.splitext(filename)[1].lower()
     return ext in ALLOWED_EXTENSIONS
